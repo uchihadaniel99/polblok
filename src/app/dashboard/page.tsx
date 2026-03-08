@@ -6,9 +6,8 @@ import { StatCard, Card } from '@/components/Card'
 import {
   DollarSign,
   ShoppingCart,
-  Trending,
+  TrendingUp,
   AlertTriangle,
-  Package,
 } from 'lucide-react'
 import { Line, Bar } from 'react-chartjs-2'
 import {
@@ -169,7 +168,7 @@ export default function DashboardPage() {
         <StatCard
           label="Melhor Produto"
           value={bestSellingProduct}
-          icon={<Trending size={24} />}
+          icon={<TrendingUp size={24} />}
           color="primary"
         />
         <StatCard
